@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from predict.py import predict
+from predict import predict
 
 st.set_page_config(page_title="CNC Milling Digital Twin Dashboard", layout="wide")
 
